@@ -1,0 +1,107 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+    background-color: rgb(158, 55, 158);;
+}
+.all{
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgb(65, 65, 65) 2px 2px 7px 2px;
+    width: max-content;
+    width: 26%;
+    margin: auto;
+    margin-top: 90px;
+    background-color: rgb(233, 225, 225);
+}
+.header{
+    color: black;
+    text-align: center;
+    padding: 40px 0px 10px 0px ;
+}
+h1{
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+p{
+   text-indent: 4px; 
+}
+.input1 input{
+    width: 90%;
+    padding:  10px 0px 10px 10px;
+    margin: 0px 0px 0px 15px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border: 1px solid rgb(146, 146, 146);
+}
+input[type=submit]{
+    padding: 10px;
+    background-color: rgb(158, 55, 158);
+    width: 50%;
+    margin: 0px 0px 20px 80px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgb(65, 65, 65) 1px 1px 3px 1px;
+    border: 2px rgb(158, 55, 158) solid;
+}
+input[type=submit]:hover{
+    color: rgb(158, 55, 158);
+    background-color:rgb(233, 225, 225);
+
+}
+.remember{
+    margin-bottom: 30px;
+}
+.head h4{
+    text-align: center;
+    padding-bottom: 130px;
+}
+a{
+    text-decoration: none;
+    color: rgb(158, 55, 158);
+}
+span{
+    color: rgb(158, 55, 158);
+}
+.remember a{
+    margin-right: 25px;
+}
+input[type=checkbox]{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+.forgot{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    background-color: rgb(48, 6, 48);
+    border-top: 3px solid  white;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    font-size: 12px;
+    left: 0px;
+}
+

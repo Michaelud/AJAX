@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(218, 214, 214);
+}
+.container{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 15px;
+    text-indent: 30px;
+}
+.list a:hover{
+    color: rgb(158, 55, 158);
+}
+span{
+    color: rgb(158, 55, 158);
+    display: inline;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: rgb(158, 55, 158);
+}
+.logo{
+    float: left;
+}
+.list{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.header{
+    font-size: 40px;
+    margin: 0px 0px 30px 55px;
+    letter-spacing: 8px;
+    text-shadow: rgb(65, 65, 65) 2px 2px;
+}
+p{
+    font-size: 20px;
+    letter-spacing: normal;
+    text-shadow: none;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(158, 55, 158);
+    color: white;
+    text-align: center;
+    padding: 7px 0px 7px 0px;
+    width: 12%;
+    box-shadow: rgb(36, 33, 33) 2px 2px 2px 2px;
+    margin: 10px 30px 0px 100px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(158, 55, 158)
+}
+.click{
+    width: 12%;
+}
+.buy{
+    width: 12%;
+}
+.home1{
+    background-color: rgb(160, 137, 137);
+    border: 3px solid white;
+    padding: 95px 0px;
+    border: none;
+}
+.header2{
+    text-align: center;
+    margin: 50px  0px 10px 0px;
+}
+.speech1{
+    margin-right: 20%;
+    float: right;
+
+}
+.speech1 p{
+    word-spacing: 5px;
+    padding: 10px;
+    line-height: 20px;
+    border: 1px solid black;
+    width: 45%;
+    text-align: justify;
+    float: right;
+    border: none;
+}
+.speech1 img{
+    border: solid black 1px;
+    margin: 0px 0px 0px 200px;
+    padding: 8px 15px 130px 10px;
+    width: 31%;
+    float :left;
+}
+.speech1 button{
+   float: right;
+   margin: 30px 230px 0px 0px;
+}
+.home3{
+    border: 3px solid white;
+    padding: 40px 0px 170px 0px;
+    border: none;
+    border-bottom: white solid 2px;
+}
+.header2{
+    padding: 10px 0px;
+}
+.clear{
+    clear: both;
+}
+.join{
+    width: 30%;
+}
+.home2{
+    border-bottom: 2px solid rgb(255, 252, 252);
+    padding-bottom: 500px;
+    padding-top: 50px;
+}
+.box{
+    color: white;
+    text-align: center;
+    border: black solid 1px;
+    margin: 0px 300px;
+    padding: 10px;
+}
+.networks div{
+    border: solid black 2px ;
+    padding: 60px 40px;
+    margin: 10px 40px;
+    border: none;
+    box-shadow: rgb(41, 37, 37) 2px 2px 2px 2px;
+    width: 30%;
+}
+.mtn{  
+    background-color: yellow;
+    float: left;
+}
+.mobile{
+    float: right;
+    background-color: rgb(6, 85, 6);
+}
+hr{
+     width: 43%;
+    margin-left: 28%;
+    transform: rotate(90deg);
+    border: rgb(87, 86, 86) 0.1px solid;
+}
+.glo{
+    background-color: green;
+    float: left;
+}
+.airtel{
+    float: right;
+    background-color: red;
+}
+.home4{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+    height: 700px;
+    padding: 130px 0px;
+    border: none;
+    
+}
+.hello{
+    color: white;
+    font-size: 60px;
+    margin-left: 100px;
+    float: left;
+}
+.fieldset{
+    float: right;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 30px 30px 50px 30px;
+    margin: 0px 70px;
+    background-color: rgb(158, 55, 158);
+    width: 35%;
+}
+fieldset{
+    padding: 10px;
+    background-color: rgb(158, 55, 158);
+} 
+input{
+    padding: 10px;
+    width: 95%;
+    margin: 10px;
+}
+.message{
+    padding-bottom: 60px;
+}
+input[type=submit]{
+    width: 45%;
+    background-color: white;
+    color: rgb(158, 55, 158);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 7px;
+    box-shadow: rgb(36, 33, 33) 2px 2px 2px 2px;
+    margin: 10px 30px 0px 100px;
+}
+input[type=submit]:hover{
+    color: white;
+    background-color: rgb(158, 55, 158);
+}
+legend{
+    color: white;
+}
+.footer{
+    position: static;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    background-color: rgb(48, 6, 48);
+    border-top: 3px solid  white;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+
