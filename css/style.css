@@ -25,6 +25,11 @@ body button{
 }
 #home1 div h1{
     line-height: 70px;
+    font-weight: 900;
+}
+#home1{
+    background-image: url(../css/ozone.jpg) ;
+    background-size: cover;
 }
 .header h1{
      font-weight: 500;
@@ -156,13 +161,77 @@ footer{
     font-size: 12px;
 }
 
-
+.btn{
+    background-color: rgb(0, 243, 53);
+}
  span{
      color: green;
  }
 ul a{
     font-size: 20px;
 }
+.navbar-brand h1{
+position: relative;
+color: grey;
+-webkit-text-stroke: 0.3vw rgb(0, 255, 21)
+}
+.navbar-brand h1::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    content: attr(data-text);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0vw rgb(0, 243, 53);
+    border-right: 2px solid rgb(255, 255, 255);
+    
+    overflow: hidden;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px){
     .box .row{
         display: none;
@@ -173,6 +242,9 @@ ul a{
     }
     .box .row .col{
     margin: 0px 20px;    
+    }
+    #home1 div h1{
+        line-height: 90px;
     }
     .box{
     color: white;
