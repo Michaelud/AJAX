@@ -55,7 +55,6 @@ button:hover{
     width: 12%;
 }
 .home1{
-    background-color: rgb(160, 137, 137);
     border: 3px solid white;
     padding: 95px 0px;
     border: none;
@@ -232,7 +231,7 @@ color: grey;
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     .box .row{
         display: none;
     }
@@ -258,11 +257,13 @@ color: grey;
 }
 
    }
-       @media screen and (max-width: 768px){
+       @media screen and (max-width: 769px){
         .networks div{
             float: none;
             margin: auto;
            margin-top: 10%;
+           display: flex;
+           flex-wrap: wrap;
         }
         .box1{
             display: none;
